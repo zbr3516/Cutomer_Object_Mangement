@@ -20,15 +20,15 @@ const About = (props: Props) => {
                             {/* <img src={Image} alt="pogo" /> */}
                             <div className="input-icons ">
                                 <i className="fa fa-user icon"></i>
-                                <input className="form-control input-field me-2 ps-4" type="search" placeholder=" First Name" aria-label="Search" />
+                                <input className="form-control input-field me-2" style={{ paddingLeft: "30px" }} type="search" placeholder="First Name" aria-label="Search" />
                             </div>
                             <div className="input-icons ">
                                 <i className="fa fa-key icon"></i>
-                                <input className="form-control input-field me-2 mt-2 ps-4" type="search" placeholder=" Password" aria-label="Search" />
+                                <input className="form-control input-field me-2 mt-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Password" aria-label="Search" />
                             </div>
                             <div className="input-icons mt-2">
                                 <i className="fa fa-envelope icon"></i>
-                                <input className="form-control input-field me-2 ps-4" type="search" placeholder=" Email" aria-label="Search" />
+                                <input className="form-control input-field me-2" style={{ paddingLeft: "30px" }} type="search" placeholder=" Email" aria-label="Search" />
                             </div>
                             {/* <div className="input-icons">
                                 <i className="fa fa-key icon"></i>
@@ -38,15 +38,15 @@ const About = (props: Props) => {
                         <div className="col-6 text-center mt-2">
                             <div className="input-icons ">
                                 <i className="fa fa-user icon"></i>
-                                <input className="form-control input-field me-2 ps-4" type="search" placeholder=" Last Name" aria-label="Search" />
+                                <input className="form-control input-field me-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Last Name" aria-label="Search" />
                             </div>
                             <div className="input-icons ">
                                 <i className="fa fa-key icon"></i>
-                                <input className="form-control input-field me-2 mt-2 ps-4" type="search" placeholder=" Confirm Password" aria-label="Search" />
+                                <input className="form-control input-field me-2 mt-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Confirm Password" aria-label="Search" />
                             </div>
                             <div className="input-icons mt-2">
                                 <i className="fa fa-envelope icon"></i>
-                                <input className="form-control input-field me-2 ps-4" type="search" placeholder=" Re-enter Email" aria-label="Search" />
+                                <input className="form-control input-field me-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Re-enter Email" aria-label="Search" />
                             </div>
                             {/* <div className="input-icons mt-2">
                                 <i className="fa fa-envelope icon"></i>
@@ -57,10 +57,11 @@ const About = (props: Props) => {
                     </div>
                     <div id="comimg_b" className='row mt-4'>
                         <div className='col-6 mt-4'>
-                            <button className="btn mt-3 btn-block " type="submit">SUBMIT</button>
+                            <button className="btn mt-3 btn-block " type="submit">CREATE ACCOUNT</button>
                         </div>
                         <div className='col-6 mt-4'>
-                        <button className="btn mt-3 btn-block " style={{textDecoration:"none"}} type="submit"><Link to="/" style={{color : "white"}}>SIGN IN</Link></button>
+                        {/* <button className="btn mt-3 btn-block " style={{textDecoration:"none"}} type="submit"><Link to="/" style={{color : "white"}}>SIGN IN</Link></button> */}
+                        <div className='mt-3 pt-1 text-center'>Already an Account <Link to="/">Log In</Link></div>
                         </div>
                     </div>
                 </div>

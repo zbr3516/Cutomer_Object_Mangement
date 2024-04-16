@@ -29,18 +29,18 @@ const Home = (props: Props) => {
           <div className="col-6 text-center mt-2">
             <h2>Welcome</h2>
             <p>Login here</p>
-            <div className="input-icons ">
+            <div className="input-icons">
               <i className="fa fa-envelope icon"></i>
-              <input className="form-control input-field me-2 ps-4" type="search" placeholder=" Email" aria-label="Search" />
+              <input className="form-control input-field me-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Email" aria-label="Search" />
             </div>
-            <div className="input-icons ">
+            <div className="input-icons">
               <i className="fa fa-key icon"></i>
-              <input className="form-control input-field me-2 mt-2 ps-4" type="search" placeholder=" Password" aria-label="Search" />
+              <input className="form-control input-field me-2 mt-2" style={{ paddingLeft: "30px" }} type="search" placeholder="Password" aria-label="Search" />
             </div>
             <div>
               <button className="btn mt-2 btn-block" type="submit">LOGIN</button>
-              <button className="btn btn-outline-success mt-2 btn-block" style={{ textDecoration: "none" }} type="submit"><Link to="/signup" style={{ color: "white" }}>SIGN UP</Link></button>
-              {/* <button className="btn btn-outline-success mt-2 btnn1" type="submit">Search</button> */}
+              {/* <button className="btn btn-outline-success mt-2 btn-block" style={{ textDecoration: "none" }} type="submit"><Link to="/signup" style={{ color: "white" }}>SIGN UP</Link></button> */}
+              <div className='mt-2'>Create New Account <Link to="/signup">Sign Up</Link></div>
             </div>
           </div>
         </div>

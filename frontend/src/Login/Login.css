@@ -56,10 +56,8 @@ img{
     text-align: start;
 }
 
-.input-field {
-    width: 100%;
-    /* padding: 10px; */
-    text-align: start;
+.input-icons.input-field{
+    padding-right: 30px;
 }
 .btnn1{
     justify-content: center;
